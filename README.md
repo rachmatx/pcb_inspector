@@ -80,8 +80,10 @@ Fitur utama: `/inspect` (upload multi-gambar, preset sensitivitas 0.30/0.45/0.60
 ## Deployment
 
 - **Frontend → Vercel**: import repo, Root Directory = `web/`, set env di atas.
-- **Backend → Hugging Face Spaces** (gratis, SDK Gradio + hardware ZeroGPU): push isi `backend/` (`main.py`, `app.py`, `requirements.txt`, `models/*.pt`, `README.hf.md` → `README.md`). Space me-routing HTTP ke port 7860; kontrak API tidak berubah. `backend/Dockerfile` tersedia bila nanti butuh Docker SDK.
+- **Backend → Modal** (serverless, allowance gratis): `modal volume put` bobot ke Volume `pcb-models`, lalu `modal deploy backend/modal_app.py` (lihat header file itu). Kontrak API tak berubah; yang dipakai frontend hanya URL hasil deploy.
 - **Database → Turso** (libSQL, dialek tetap SQLite): buat DB → `drizzle-kit push` dengan env Turso (lihat `web/drizzle.config.ts`).
+
+> Catatan: `backend/Dockerfile` + `app.py` + `README.hf.md` adalah sisa percobaan Hugging Face Spaces (ZeroGPU menolak server persisten tanpa fungsi `@spaces.GPU`) — tidak dipakai.
 
 ## Documentation map
 

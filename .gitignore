@@ -42,3 +42,7 @@ artifacts/PCB_Inspector_Results_E01_to_E05/**/BoxR_curve.png
 *.log
 devlog.txt
 scratch-*.ts
+
+# Tool lokal & clone sekali-pakai (bukan bagian repo)
+.commandcode/
+hf-space/

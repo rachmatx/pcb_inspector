@@ -6,6 +6,6 @@ torchvision
 ultralytics==8.4.138
 fastapi==0.141.1
 uvicorn[standard]
-pillow==12.3.0
-numpy==2.4.6
+pillow>=10,<11
+numpy>=1.26,<2.3
 python-multipart
