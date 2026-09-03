@@ -1,0 +1,18 @@
+# E06 — fine-tune anti-false-positive di board berpopulasi.
+#
+# Train = data lama (453 gambar, 8 grup) + patch background dari foto PCB
+# real (ml/data/e06_background, label kosong). Val/test TIDAK berubah
+# (tetap bersih) agar tidak ada kebocoran metrik.
+#
+# CATATAN PATH: sesuaikan `path` dengan lokasi dataset di mesin training
+# (Cloud GPU). Struktur folder di bawahnya harus sama.
+
+path: C:/Users/R/Documents/command-code/pcb-inspector/ml/data
+train:
+  - processed/yolo_dataset/train/images
+  - e06_background/images
+val: processed/yolo_dataset/val/images
+test: processed/yolo_dataset/test/images
+
+nc: 6
+names: ['missing_hole', 'mouse_bite', 'open_circuit', 'short', 'spur', 'spurious_copper']

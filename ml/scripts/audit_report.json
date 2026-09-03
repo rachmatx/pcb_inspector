@@ -1,0 +1,220 @@
+{
+  "dataset": "C:\\Users\\R\\Documents\\command-code\\pcb-inspector\\PCB_DATASET",
+  "read_only": true,
+  "counts": {
+    "images": 693,
+    "xml_annotations": 693,
+    "total_objects": 2953,
+    "pcb_used_images": 10,
+    "inferred_pcb_groups": 10
+  },
+  "images_by_folder": {
+    "Missing_hole": 115,
+    "Mouse_bite": 115,
+    "Open_circuit": 116,
+    "Short": 116,
+    "Spur": 115,
+    "Spurious_copper": 116
+  },
+  "annotations_by_folder": {
+    "Missing_hole": 115,
+    "Mouse_bite": 115,
+    "Open_circuit": 116,
+    "Short": 116,
+    "Spur": 115,
+    "Spurious_copper": 116
+  },
+  "classes": {
+    "missing_hole": 497,
+    "mouse_bite": 492,
+    "open_circuit": 482,
+    "short": 491,
+    "spur": 488,
+    "spurious_copper": 503
+  },
+  "objects_per_image": {
+    "min": 1,
+    "max": 6,
+    "mean": 4.261183261183261,
+    "median": 5
+  },
+  "bbox_statistics": {
+    "width_px": {
+      "min": 24.0,
+      "max": 283.0,
+      "mean": 70.8354216051473,
+      "median": 64.0
+    },
+    "height_px": {
+      "min": 23.0,
+      "max": 215.0,
+      "mean": 67.57805621401964,
+      "median": 63.0
+    },
+    "area_px2": {
+      "min": 625.0,
+      "max": 37268.0,
+      "mean": 4860.04537758212,
+      "median": 4312.0
+    },
+    "relative_area_percent": {
+      "min": 0.0129885675667363,
+      "max": 0.8252728174603174,
+      "mean": 0.08494543009624636,
+      "median": 0.07171329978921602
+    },
+    "invalid_boxes": []
+  },
+  "matching": {
+    "xml_without_image": [],
+    "image_without_xml": [],
+    "dimension_mismatch": [],
+    "xml_filename_mismatch": [],
+    "invalid_xml": []
+  },
+  "duplicates": {
+    "groups": [],
+    "hash_errors": []
+  },
+  "pcb_groups": {
+    "01": {
+      "images": 120,
+      "annotations": 120,
+      "objects": 358,
+      "classes": {
+        "missing_hole": 61,
+        "mouse_bite": 53,
+        "open_circuit": 59,
+        "short": 72,
+        "spur": 53,
+        "spurious_copper": 60
+      }
+    },
+    "04": {
+      "images": 120,
+      "annotations": 120,
+      "objects": 358,
+      "classes": {
+        "missing_hole": 60,
+        "mouse_bite": 60,
+        "open_circuit": 59,
+        "short": 59,
+        "spur": 60,
+        "spurious_copper": 60
+      }
+    },
+    "05": {
+      "images": 60,
+      "annotations": 60,
+      "objects": 259,
+      "classes": {
+        "missing_hole": 46,
+        "mouse_bite": 51,
+        "open_circuit": 32,
+        "short": 30,
+        "spur": 50,
+        "spurious_copper": 50
+      }
+    },
+    "06": {
+      "images": 61,
+      "annotations": 61,
+      "objects": 307,
+      "classes": {
+        "missing_hole": 51,
+        "mouse_bite": 52,
+        "open_circuit": 50,
+        "short": 55,
+        "spur": 49,
+        "spurious_copper": 50
+      }
+    },
+    "07": {
+      "images": 60,
+      "annotations": 60,
+      "objects": 300,
+      "classes": {
+        "missing_hole": 50,
+        "mouse_bite": 50,
+        "open_circuit": 50,
+        "short": 50,
+        "spur": 50,
+        "spurious_copper": 50
+      }
+    },
+    "08": {
+      "images": 60,
+      "annotations": 60,
+      "objects": 298,
+      "classes": {
+        "missing_hole": 49,
+        "mouse_bite": 50,
+        "open_circuit": 50,
+        "short": 49,
+        "spur": 50,
+        "spurious_copper": 50
+      }
+    },
+    "09": {
+      "images": 60,
+      "annotations": 60,
+      "objects": 305,
+      "classes": {
+        "missing_hole": 53,
+        "mouse_bite": 50,
+        "open_circuit": 51,
+        "short": 50,
+        "spur": 50,
+        "spurious_copper": 51
+      }
+    },
+    "10": {
+      "images": 32,
+      "annotations": 32,
+      "objects": 162,
+      "classes": {
+        "missing_hole": 25,
+        "mouse_bite": 26,
+        "open_circuit": 30,
+        "short": 25,
+        "spur": 25,
+        "spurious_copper": 31
+      }
+    },
+    "11": {
+      "images": 60,
+      "annotations": 60,
+      "objects": 303,
+      "classes": {
+        "missing_hole": 50,
+        "mouse_bite": 50,
+        "open_circuit": 51,
+        "short": 51,
+        "spur": 50,
+        "spurious_copper": 51
+      }
+    },
+    "12": {
+      "images": 60,
+      "annotations": 60,
+      "objects": 303,
+      "classes": {
+        "missing_hole": 52,
+        "mouse_bite": 50,
+        "open_circuit": 50,
+        "short": 50,
+        "spur": 51,
+        "spurious_copper": 50
+      }
+    }
+  },
+  "class_check": {
+    "missing_expected": [],
+    "unexpected": []
+  },
+  "directories": {
+    "PCB_USED_exists": true,
+    "rotation_exists": true,
+    "rotation_used_for_baseline": false
+  }
+}

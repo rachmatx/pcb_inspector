@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+ultralytics
+pillow
+opencv-python-headless
+numpy
+# dev: test suite backend (pytest + httpx untuk TestClient)
+pytest
+httpx

@@ -1,0 +1,44 @@
+# Dipakai bila root di-init sebagai repo tersendiri.
+# (web/ adalah repo git terpisah dengan .gitignore-nya sendiri.)
+
+# Python venv — jangan pernah commit
+venv/
+__pycache__/
+.pytest_cache/
+
+# Secrets & database lokal
+.env
+*.db
+*.db-shm
+*.db-wal
+
+# Node / Next build
+node_modules/
+.next/
+out/
+
+# Dataset mentah & artefak besar (catat provenance di docs/DATASET.md)
+ml/data/raw/
+ml/data/processed/
+ml/data/negatives/
+ml/data/e06_background/
+ml/scripts/audit_samples/
+# Visualisasi batch training (kurva/results/confusion matrix tetap di-commit)
+artifacts/**/*batch*.jpg
+# Folder artefak lama — digantikan PCB_Inspector_Results_E01_to_E05 (kurasi)
+artifacts/E03_higher_res/
+artifacts/E05_yolov8s_1280/
+# File non-kurasi di folder hasil lengkap (batch viz sudah dicover pola di atas)
+artifacts/PCB_Inspector_Results_E01_to_E05/**/results.csv
+artifacts/PCB_Inspector_Results_E01_to_E05/**/args.yaml
+artifacts/PCB_Inspector_Results_E01_to_E05/**/labels.jpg
+artifacts/PCB_Inspector_Results_E01_to_E05/**/BoxP_curve.png
+artifacts/PCB_Inspector_Results_E01_to_E05/**/BoxR_curve.png
+*.pt
+*.zip
+
+# Log & file sekali-pakai
+.playwright-mcp/
+*.log
+devlog.txt
+scratch-*.ts

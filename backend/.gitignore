@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Env & secrets lokal — JANGAN commit
+.env
+
+# Database & artefak lokal
+*.db
+*.db-shm
+*.db-wal
+val_raw.json

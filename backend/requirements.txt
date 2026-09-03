@@ -1,0 +1,11 @@
+# Dependensi backend PCB Inspector untuk Hugging Face Spaces (CPU).
+# Torch diambil dari indeks CPU agar tak menarik build CUDA yang raksasa.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+ultralytics==8.4.138
+fastapi==0.141.1
+uvicorn[standard]
+pillow==12.3.0
+numpy==2.4.6
+python-multipart

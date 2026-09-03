@@ -1,0 +1,11 @@
+path: /kaggle/working/yolo_dataset
+train: train/images
+val: val/images
+test: test/images
+names:
+- missing_hole
+- mouse_bite
+- open_circuit
+- short
+- spur
+- spurious_copper

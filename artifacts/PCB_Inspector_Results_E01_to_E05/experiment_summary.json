@@ -1,0 +1,99 @@
+{
+  "best_experiment": "E03",
+  "best_model": "YOLOv8s",
+  "best_imgsz": 1280,
+  "best_mAP50": 0.9571372726136289,
+  "best_mAP50_95": 0.5293076337219903,
+  "all_experiments": [
+    {
+      "experiment": "E01",
+      "model": "YOLOv8s",
+      "imgsz": 640,
+      "epochs": 100,
+      "mAP50": 0.508907688145171,
+      "mAP50-95": 0.19460378555668514,
+      "precision": 0.5080065043568754,
+      "recall": 0.5468455651374712,
+      "per_class_ap50": {
+        "missing_hole": 0.9681136370027846,
+        "mouse_bite": 0.3534349909901682,
+        "open_circuit": 0.2851453852351581,
+        "short": 0.5243948001696687,
+        "spur": 0.6332563513717686,
+        "spurious_copper": 0.2891009641014778
+      }
+    },
+    {
+      "experiment": "E02",
+      "model": "YOLOv8s",
+      "imgsz": 640,
+      "epochs": 100,
+      "mAP50": 0.8738845678310317,
+      "mAP50-95": 0.45175619305674725,
+      "precision": 0.9074543907601095,
+      "recall": 0.7701206477072481,
+      "per_class_ap50": {
+        "missing_hole": 0.9712626499297544,
+        "mouse_bite": 0.8708632890987246,
+        "open_circuit": 0.8592493546708773,
+        "short": 0.8523525758841415,
+        "spur": 0.8187996812460265,
+        "spurious_copper": 0.8707798561566666
+      }
+    },
+    {
+      "experiment": "E03",
+      "model": "YOLOv8s",
+      "imgsz": 1280,
+      "epochs": 100,
+      "mAP50": 0.9571372726136289,
+      "mAP50-95": 0.5293076337219903,
+      "precision": 0.9721138635144763,
+      "recall": 0.9171718777477537,
+      "per_class_ap50": {
+        "missing_hole": 0.995,
+        "mouse_bite": 0.9845934258400576,
+        "open_circuit": 0.9387864220879165,
+        "short": 0.9393482675445294,
+        "spur": 0.9499647163495372,
+        "spurious_copper": 0.9351308038597321
+      }
+    },
+    {
+      "experiment": "E04",
+      "model": "YOLOv8s",
+      "imgsz": 640,
+      "epochs": 100,
+      "mAP50": 0.07851692143869254,
+      "mAP50-95": 0.025898793043901462,
+      "precision": 0.3455019811289684,
+      "recall": 0.09203931646161156,
+      "per_class_ap50": {
+        "missing_hole": 0.125,
+        "mouse_bite": 0.18062189094475656,
+        "open_circuit": 0.031129591843367912,
+        "short": 0.09725814769936093,
+        "spur": 0.036881670824079026,
+        "spurious_copper": 0.00021022732059088886
+      }
+    },
+    {
+      "experiment": "E05",
+      "model": "YOLOv8s",
+      "imgsz": 1280,
+      "epochs": 150,
+      "mAP50": 0.9559311401104006,
+      "mAP50-95": 0.529108995528485,
+      "precision": 0.9762209602145822,
+      "recall": 0.8833128134557243,
+      "per_class_ap50": {
+        "missing_hole": 0.995,
+        "mouse_bite": 0.9767253829560627,
+        "open_circuit": 0.9119292757861561,
+        "short": 0.9213874128581774,
+        "spur": 0.9529840654202556,
+        "spurious_copper": 0.9775607036417513
+      }
+    }
+  ]
+}
